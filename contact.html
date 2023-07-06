@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+    <body>
+        <header>
+          <nav>
+            <img src="Cafe -1.png" alt="Cafe logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-buttons">
+          </div>
+        </header>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>Have a question or feedback? We'd love to hear from you! Fill out the form below or contact us through the provided
+      information.</p>
+
+    <form action="submit_contact_form.php" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Contact Information:</h3>
+      <p><strong>Phone:</strong> 07123456789 </p>
+      <p><strong>Email:</strong> info@cafedelight.com</p>
+      <p><strong>Address:</strong> 23 W Preston St, Edinburgh, United Kingdom</p>
+    </div>
+  </div>
+<br>
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="social-media">
+            <a href="#" class="social-icon"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#" class="social-icon"><img src="twitter.png" alt="Twitter"></a>
+          </div>
+        <div class="reservation">
+          <h3>Make a Reservation</h3>
+          <p>Book a table online and enjoy a delightful experience at Café Delight.</p>
+          <a href="reservation.html" class="btn">Reserve Now</a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Café Delight. All rights reserved. | Designed by Luke Serventi-Stevenson</p>
+    </div>
+  </footer>
+</body>
+
+</html>

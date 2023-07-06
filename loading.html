@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Loading screen styles */
+
+    .loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .loading-text {
+      font-size: 24px;
+      color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loading-screen">
+    <p class="loading-text">Loading...</p>
+  </div>
+
+  <header>
+    <!-- Header content goes here -->
+  </header>
+
+  <div class="container">
+    <!-- Page content goes here -->
+  </div>
+
+  <footer>
+    <!-- Footer content goes here -->
+  </footer>
+
+  <script>
+    // Hide the loading screen when the page is fully loaded
+    window.addEventListener('load', function () {
+      var loadingScreen = document.querySelector('.loading-screen');
+      loadingScreen.style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>
