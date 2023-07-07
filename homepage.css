@@ -3,10 +3,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
 h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
+
 body {
   background-image: url("wavy-background-180786598e741294f08ecaf1990ddc76.png");
   background-size: 320px 320px;
@@ -64,10 +66,10 @@ nav ul li a {
 }
 
 #hero {
-  background-image: url("cafe-vines-1024x702.jpg");
+  background-image: url("pMmIAB6VKh9BnpxL7EIhit7GFfQmrBSFJkwvznca.png");
   background-size: cover;
   background-position: center;
-  color: #ffffff;
+  color: #000000;
   padding: 200px 0;
   text-align: center;
 }
@@ -92,12 +94,17 @@ nav ul li a {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .offer-card img {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin-bottom: 10px;
+
 }
 
 .offer-card h3 {
